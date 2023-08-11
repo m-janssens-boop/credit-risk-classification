@@ -2,9 +2,9 @@
 
 ## Overview of the Analysis
 
-This credit risk classification analysis was created to predict the creditworthiness of borrowers, given their previous history of loans, debt, income, and other financial information. This model was written to predict the liklihood that a borrower was at low-risk (classified by the model using a 0) or high-risk (classified by the model using a 1) for defaulting if granted a new loan.
+This credit risk classification analysis was created to predict the creditworthiness of borrowers, given their previous history of loans, debt, income, and other financial information. This model was written to predict the likelihood that a borrower was at low-risk (classified by the model using a 0) or high-risk (classified by the model using a 1) for defaulting if granted a new loan.
 
-This machine learning model was constructed by first creating the labels set (`y`)  from the “loan_status” column, and then creating the features (`X`) DataFrame from the remaining columns of the data found in `lending_data.csv`. Then splitting the data into testing and training sets for the model to use. 
+This machine learning model was constructed by first creating the labels set (`y`)  from the “loan_status” column, and then creating the features (`X`) DataFrame from the remaining columns of the data found in `lending_data.csv`. Then, by splitting the data into testing and training sets for the model to use. 
 
 The model tested was a `LogisticRegression` model which was fit by using the training data (`X_train` and `y_train`). Next, the predictions on the testing data labels were saved using the testing feature data (`X_test`) and the fitted model. Finally, the model was evaulated by calculating the accuracy score of the model, generating a confusion matrix, and printing the classification report.
 
